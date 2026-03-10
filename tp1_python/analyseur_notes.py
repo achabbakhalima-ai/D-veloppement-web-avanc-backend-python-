@@ -81,9 +81,9 @@ for nom, matières in etudiants.items():
     for matière, notes in matières.items():
         moyennes_par_matière[nom][matière] = moyenne(notes)
 moyenne_generale ={}
-for nom, matieres in etudiants.items():
+for nom, matières in etudiants.items():
     toutes_les_notes = []
-    for notes in matieres.values():
+    for notes in matières.values():
         toutes_les_notes.extend(notes)  
     moyenne_generale[nom] = moyenne(toutes_les_notes)
 
