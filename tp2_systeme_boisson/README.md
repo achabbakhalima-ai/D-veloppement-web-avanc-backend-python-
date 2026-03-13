@@ -27,6 +27,17 @@ tp_boissons/
 ```
 ---
 
+
+## 3. Fonctionnalités principales
+
+1. Créer et enrichir des boissons avec des ingrédients.
+2. Combiner deux boissons avec l’opérateur `+`.
+3. Créer des clients et suivre leur fidélité.
+4. Passer une commande, ajouter plusieurs boissons et calculer le prix total.
+5. Afficher le contenu complet de la commande avec description, prix et points de fidélité.
+
+---
+
 ## Exemple d’utilisation
 
 ```python
